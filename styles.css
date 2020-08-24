@@ -6,17 +6,31 @@ body {
 
 h1 {
   font-style: normal;
-  font-weight: 900;
-  font-size: 30px; }
+  font-weight: 800;
+  font-size: 26px;
+  color: #394149; }
 
 h2 {
-  font-size: 18px; }
+  font-size: 18px;
+  color: #707070; }
 
 .logo-img {
   width: 100%; }
 
 .pc-img {
   width: 100%; }
+
+.cloudflare-error h1 {
+  font-size: 32px;
+  font-weight: 900; }
+
+.cloudflare-error .cferror_details,
+p,
+ul {
+  display: none; }
+
+.cloudflare-error .cferror_details {
+  transform: scale(0); }
 
 .cloudflare-error ul {
   list-style-type: none;
@@ -28,26 +42,18 @@ h2 {
   float: left;
   padding: 3px; }
 
-.cloudflare-error .cferror_details,
-p,
-ul {
-  display: none; }
-
-.cloudflare-error .cferror_details {
-  transform: scale(0); }
-
 @media screen and (max-width: 991px) {
   /* start of large tablet styles */
   /* xl */
   h1 {
-    font-size: 26px; }
+    font-size: 24px; }
   h2 {
     font-size: 14px; } }
 
 @media screen and (max-width: 767px) {
   /* small */
   h1 {
-    font-size: 22px; }
+    font-size: 20px; }
   h2 {
     font-size: 12px; } }
 
