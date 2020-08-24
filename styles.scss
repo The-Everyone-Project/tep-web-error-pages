@@ -1,0 +1,91 @@
+$padding: 6px;
+
+body {
+  font-family: como, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+}
+h2 {
+  font-size: 18px;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.pc-img {
+  width: 100%;
+}
+
+.cloudflare-error ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  font-size: 10px;
+}
+
+.cloudflare-error li {
+  float: left;
+  padding: 3px;
+}
+
+.cloudflare-error .cferror_details,
+p,
+ul {
+  display: none;
+}
+
+.cloudflare-error .cferror_details {
+  transform: scale(0);
+}
+
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+  /* xl */
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+}
+
+// @media screen and (max-width: 991px) {
+//   /* start of large tablet styles */
+//   /* large */
+//   .img-fluid {
+//     max-width: 80%;
+//   }
+// }
+
+@media screen and (max-width: 767px) {
+  /* small */
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  .logo-img {
+    max-width: 15%;
+  }
+
+  .pc-img {
+    max-width: 30%;
+  }
+}
